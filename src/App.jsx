@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Harry Potter</h1>
+        <h1>The Wizard World</h1>
         <ul>
           {dados?.map((item) => (
             <>
