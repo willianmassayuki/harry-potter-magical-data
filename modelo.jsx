@@ -47,6 +47,11 @@
 // Página descritiva
 /* 
   Duas colunas
-  Imagem com animação
 
+  Imagem com animação
+  Coluna de dados
 */
+
+// Escolher uma fonte
+// Escolher a paleta de cores
+
