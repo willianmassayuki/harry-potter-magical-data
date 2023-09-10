@@ -55,3 +55,5 @@
 // Escolher uma fonte
 // Escolher a paleta de cores
 
+// Tratar os dados da API
+// fazer a página inicial
