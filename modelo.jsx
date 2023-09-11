@@ -33,9 +33,16 @@
  // Home
  /* 
   Cores escuras
+  Background - opções
+  Plataform 9 3/4
   Castelo de Hogwarts
+  Um vídeo ou gif de backbground
+  Algo no estilo dos jornais animados
+
   Música tema de fundo
   Texto "The Wizard World" ou "Harry Potter" aparecendo com animaçãos
+  
+
  */   
 
  // Card
