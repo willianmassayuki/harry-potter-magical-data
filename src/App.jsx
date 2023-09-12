@@ -23,7 +23,7 @@ function App() {
         <ul>
           {dados?.map((item) => (
             <>
-              <li>
+              <li className="card-text">
                 Character: {item.name} Actor(Actress)): {item.actor}
               </li>
             </>
