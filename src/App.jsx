@@ -18,7 +18,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="app">
+        <audio
+          src="src/assets/media/hedwigs-theme.mp3"
+          controls
+          autoPlay="true"
+        ></audio>
         <h1>The Wizard World</h1>
         <ul>
           {dados?.map((item) => (
