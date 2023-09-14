@@ -8,13 +8,17 @@
 
 .app {
   width: 100vw;
+  height: 100vh;
   background-image: url("src/assets/images/wallpaper-hogwarts.jpg");
+  background-size: cover;
 }
 
 h1 {
   //font-family: Parselto;
   //font-family: Lumos;
   font-family: Harryp;
+  margin: 0;
+  color: goldenrod;
 }
 
 li {

@@ -16,16 +16,21 @@ function App() {
       });
   }, []);
 
+  const audioElem = document.getElementById("audioTheme");
+  function playAudio() {
+    audioElem.play();
+  }
+
   return (
     <>
-      <div className="app">
+      <div className="app" onMouseMove={playAudio}>
         <audio
+          id="audioTheme"
           src="src/assets/media/hedwigs-theme.mp3"
-          controls
-          autoPlay="true"
+          preload="auto"
         ></audio>
         <h1>The Wizard World</h1>
-        <ul>
+        {/* <ul>
           {dados?.map((item) => (
             <>
               <li className="card-text">
@@ -33,7 +38,7 @@ function App() {
               </li>
             </>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </>
   );
