@@ -30,6 +30,7 @@ function App() {
           preload="auto"
         ></audio>
         <h1>The Wizard World</h1>
+        <input type="text"></input>
         {/* <ul>
           {dados?.map((item) => (
             <>
