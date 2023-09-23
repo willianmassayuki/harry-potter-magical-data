@@ -8,6 +8,12 @@ const Header = () => {
           <li>
             <a href="/">Explore</a>
           </li>
+          <li>
+            <a href="/">Casas</a>
+          </li>
+          <li>
+            <a href="/">Filmes</a>
+          </li>
         </ul>
       </nav>
     </div>
