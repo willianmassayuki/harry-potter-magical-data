@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "./services/api";
 import "./App.scss";
+import Header from "./components/Header";
 
 function App() {
   const [dados, setDados] = useState();
@@ -29,8 +30,10 @@ function App() {
           src="src/assets/media/hedwigs-theme.mp3"
           preload="auto"
         ></audio>
+        <Header />
         <h1>The Wizard World</h1>
         <input type="text"></input>
+        <input type="submit" value="Pesquisar" />
         {/* <ul>
           {dados?.map((item) => (
             <>
@@ -39,12 +42,6 @@ function App() {
               </li>
             </>
           ))}
-
-            //////////////////
-
-            teste ///////////////////
-
-            //////////////
         </ul> */}
       </div>
     </>
