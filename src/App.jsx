@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import api from "./services/api";
 import "./App.scss";
 import Header from "./components/Header";
+import Body from "./components/Body";
 
 function App() {
   const [dados, setDados] = useState();
@@ -31,9 +32,7 @@ function App() {
           preload="auto"
         ></audio>
         <Header />
-        <h1>The Wizard World</h1>
-        <input type="text"></input>
-        <input type="submit" value="Pesquisar" />
+        <Body />
         {/* <ul>
           {dados?.map((item) => (
             <>
